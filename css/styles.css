@@ -4,7 +4,7 @@
 }
 header{
     position: absolute;
-    background-color: brown;
+    background-color: #15b17b;
     color: white;
     width: 100%;
     height: 300px;
@@ -61,7 +61,14 @@ span{
 }
 
 .education{
+    align-items: center;
     background-color: white ;
     width: 80%;
-    height: 150px;
+    height: 180px;
+    margin: 155px 10px 125px 20px;
+}
+
+.education-completo p{
+    text-align: center;
+    margin: 10px;
 }
