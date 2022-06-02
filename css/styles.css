@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    background-color: #15b17b;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+
+header h1 {
+    margin: 50px 0px 10px 150px;
+}
+p{
+    margin: 0px 0px 0px 150px;
+}
+
+body{
+    background-color: #e7e7e7
+    ;
+}
+.info{
+    position: relative;
+    display: flex;
+    height: 550px;
+}
+.foto-perfil{
+    margin: 150px -5px 0px 150px;
+}
+
+.perfil{
+    background-color: white;
+    width: 60%;
+    height: 350px;
+    margin-left: 5px;
+    margin-top: 150px;
+}
+
+section div p{
+    height: 50px;
+}
+
+ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+.iconos{
+    background-color: #15b17b;
+    height: 88px;
+}
+h2{
+    color: #15b17b;
+    text-align: center;
+}
+
+span{
+    color: white;
+}
+
+.education{
+    background-color: white ;
+    width: 80%;
+    height: 150px;
+}
