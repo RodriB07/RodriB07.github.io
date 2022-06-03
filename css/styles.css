@@ -13,9 +13,7 @@ header{
 header h1 {
     margin: 50px 0px 10px 150px;
 }
-p{
-    margin: 0px 0px 0px 150px;
-}
+
 
 body{
     background-color: #e7e7e7
@@ -25,6 +23,10 @@ body{
     position: relative;
     display: flex;
     height: 550px;
+}
+.info p{
+    margin: 0px;
+    height: 69px;
 }
 .foto-perfil{
     margin: 150px -5px 0px 150px;
@@ -43,32 +45,43 @@ section div p{
 }
 
 ul li{
-    margin: 20px;
     list-style: none;
+    margin: 20px;
 }
+
 
 .iconos{
     background-color: #15b17b;
     height: 88px;
 }
+
 h2{
+    padding: 20px;
     color: #15b17b;
     text-align: center;
 }
 
-span{
-    color: white;
-}
-
 .education{
     align-items: center;
-    background-color: white ;
-    width: 80%;
-    height: 180px;
-    margin: 155px 10px 125px 20px;
+    width: 50%;
 }
 
-.education-completo p{
+.education-completo {
+    font-weight: bold;
     text-align: center;
-    margin: 10px;
+    margin: 30px 300px;
+    background-color: white;
+    width: 70%;
+}
+.education-completo p{
+    margin: 20px ;
+    padding: 5px;
+}
+
+.trabajo {
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 300px;
+    background-color: white;
+    width: 70%;
 }
